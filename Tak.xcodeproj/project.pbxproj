@@ -8,12 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		ECFE095C2A01CB0E001A7C22 /* TakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE095B2A01CB0E001A7C22 /* TakApp.swift */; };
-		ECFE095E2A01CB0E001A7C22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE095D2A01CB0E001A7C22 /* ContentView.swift */; };
 		ECFE09602A01CB0F001A7C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFE095F2A01CB0F001A7C22 /* Assets.xcassets */; };
 		ECFE09632A01CB0F001A7C22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFE09622A01CB0F001A7C22 /* Preview Assets.xcassets */; };
 		ECFE096D2A01CB0F001A7C22 /* TakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE096C2A01CB0F001A7C22 /* TakTests.swift */; };
 		ECFE09772A01CB0F001A7C22 /* TakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE09762A01CB0F001A7C22 /* TakUITests.swift */; };
 		ECFE09792A01CB0F001A7C22 /* TakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE09782A01CB0F001A7C22 /* TakUITestsLaunchTests.swift */; };
+		ECFE098D2A01D9C5001A7C22 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE098C2A01D9C5001A7C22 /* Board.swift */; };
+		ECFE098F2A01D9D8001A7C22 /* Piece.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE098E2A01D9D8001A7C22 /* Piece.swift */; };
+		ECFE09912A01D9FB001A7C22 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE09902A01D9FB001A7C22 /* Player.swift */; };
+		ECFE09932A01DA18001A7C22 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE09922A01DA18001A7C22 /* UserProfile.swift */; };
+		ECFE09952A01DA33001A7C22 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE09942A01DA33001A7C22 /* BoardView.swift */; };
+		ECFE09972A01DA3F001A7C22 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE09962A01DA3F001A7C22 /* UserProfileView.swift */; };
+		ECFE09992A01DA4A001A7C22 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE09982A01DA4A001A7C22 /* SignInView.swift */; };
+		ECFE099B2A01DA52001A7C22 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE099A2A01DA52001A7C22 /* SignUpView.swift */; };
+		ECFE099D2A01DA58001A7C22 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE099C2A01DA58001A7C22 /* GameView.swift */; };
+		ECFE099F2A01DA62001A7C22 /* BoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE099E2A01DA62001A7C22 /* BoardViewModel.swift */; };
+		ECFE09A12A01DA69001A7C22 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE09A02A01DA69001A7C22 /* UserViewModel.swift */; };
+		ECFE09A32A01DA70001A7C22 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE09A22A01DA70001A7C22 /* GameViewModel.swift */; };
+		ECFE09A52A01DA79001A7C22 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE09A42A01DA79001A7C22 /* GameController.swift */; };
+		ECFE09A72A01DA8C001A7C22 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE09A62A01DA8C001A7C22 /* APIClient.swift */; };
+		ECFE09A92A01DAA0001A7C22 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE09A82A01DAA0001A7C22 /* UserAPI.swift */; };
+		ECFE09AB2A01DAA8001A7C22 /* GameAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE09AA2A01DAA8001A7C22 /* GameAPI.swift */; };
+		ECFE09AD2A01DAC4001A7C22 /* CoreDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE09AC2A01DAC4001A7C22 /* CoreDataRepository.swift */; };
+		ECFE09B02A01DAFC001A7C22 /* UserEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE09AF2A01DAFC001A7C22 /* UserEntity+CoreDataClass.swift */; };
+		ECFE09B22A01DB11001A7C22 /* GameEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE09B12A01DB11001A7C22 /* GameEntity+CoreDataClass.swift */; };
+		ECFE09B42A01DB33001A7C22 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE09B32A01DB33001A7C22 /* Extensions.swift */; };
+		ECFE09B62A01DD35001A7C22 /* PTNHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE09B52A01DD35001A7C22 /* PTNHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +56,6 @@
 /* Begin PBXFileReference section */
 		ECFE09582A01CB0E001A7C22 /* Tak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFE095B2A01CB0E001A7C22 /* TakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakApp.swift; sourceTree = "<group>"; };
-		ECFE095D2A01CB0E001A7C22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ECFE095F2A01CB0F001A7C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECFE09622A01CB0F001A7C22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ECFE09682A01CB0F001A7C22 /* TakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +63,27 @@
 		ECFE09722A01CB0F001A7C22 /* TakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFE09762A01CB0F001A7C22 /* TakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakUITests.swift; sourceTree = "<group>"; };
 		ECFE09782A01CB0F001A7C22 /* TakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECFE098C2A01D9C5001A7C22 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		ECFE098E2A01D9D8001A7C22 /* Piece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Piece.swift; sourceTree = "<group>"; };
+		ECFE09902A01D9FB001A7C22 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		ECFE09922A01DA18001A7C22 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		ECFE09942A01DA33001A7C22 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		ECFE09962A01DA3F001A7C22 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		ECFE09982A01DA4A001A7C22 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		ECFE099A2A01DA52001A7C22 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		ECFE099C2A01DA58001A7C22 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		ECFE099E2A01DA62001A7C22 /* BoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewModel.swift; sourceTree = "<group>"; };
+		ECFE09A02A01DA69001A7C22 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		ECFE09A22A01DA70001A7C22 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		ECFE09A42A01DA79001A7C22 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		ECFE09A62A01DA8C001A7C22 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		ECFE09A82A01DAA0001A7C22 /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		ECFE09AA2A01DAA8001A7C22 /* GameAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAPI.swift; sourceTree = "<group>"; };
+		ECFE09AC2A01DAC4001A7C22 /* CoreDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRepository.swift; sourceTree = "<group>"; };
+		ECFE09AF2A01DAFC001A7C22 /* UserEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ECFE09B12A01DB11001A7C22 /* GameEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ECFE09B32A01DB33001A7C22 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		ECFE09B52A01DD35001A7C22 /* PTNHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PTNHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +134,15 @@
 		ECFE095A2A01CB0E001A7C22 /* Tak */ = {
 			isa = PBXGroup;
 			children = (
-				ECFE095B2A01CB0E001A7C22 /* TakApp.swift */,
-				ECFE095D2A01CB0E001A7C22 /* ContentView.swift */,
+				ECFE09852A01D8C9001A7C22 /* Models */,
+				ECFE09862A01D920001A7C22 /* Views */,
+				ECFE09872A01D92E001A7C22 /* ViewModels */,
+				ECFE09882A01D942001A7C22 /* Controllers */,
+				ECFE09892A01D95A001A7C22 /* Networking */,
+				ECFE098A2A01D98F001A7C22 /* LocalStorage */,
+				ECFE098B2A01D9A1001A7C22 /* Utils */,
 				ECFE095F2A01CB0F001A7C22 /* Assets.xcassets */,
+				ECFE095B2A01CB0E001A7C22 /* TakApp.swift */,
 				ECFE09612A01CB0F001A7C22 /* Preview Content */,
 			);
 			path = Tak;
@@ -125,6 +171,84 @@
 				ECFE09782A01CB0F001A7C22 /* TakUITestsLaunchTests.swift */,
 			);
 			path = TakUITests;
+			sourceTree = "<group>";
+		};
+		ECFE09852A01D8C9001A7C22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECFE098C2A01D9C5001A7C22 /* Board.swift */,
+				ECFE098E2A01D9D8001A7C22 /* Piece.swift */,
+				ECFE09902A01D9FB001A7C22 /* Player.swift */,
+				ECFE09922A01DA18001A7C22 /* UserProfile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECFE09862A01D920001A7C22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ECFE09942A01DA33001A7C22 /* BoardView.swift */,
+				ECFE09962A01DA3F001A7C22 /* UserProfileView.swift */,
+				ECFE09982A01DA4A001A7C22 /* SignInView.swift */,
+				ECFE099A2A01DA52001A7C22 /* SignUpView.swift */,
+				ECFE099C2A01DA58001A7C22 /* GameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECFE09872A01D92E001A7C22 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ECFE099E2A01DA62001A7C22 /* BoardViewModel.swift */,
+				ECFE09A02A01DA69001A7C22 /* UserViewModel.swift */,
+				ECFE09A22A01DA70001A7C22 /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ECFE09882A01D942001A7C22 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECFE09A42A01DA79001A7C22 /* GameController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ECFE09892A01D95A001A7C22 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				ECFE09A62A01DA8C001A7C22 /* APIClient.swift */,
+				ECFE09A82A01DAA0001A7C22 /* UserAPI.swift */,
+				ECFE09AA2A01DAA8001A7C22 /* GameAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		ECFE098A2A01D98F001A7C22 /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				ECFE09AE2A01DAD7001A7C22 /* CoreDataModels */,
+				ECFE09AC2A01DAC4001A7C22 /* CoreDataRepository.swift */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		ECFE098B2A01D9A1001A7C22 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ECFE09B32A01DB33001A7C22 /* Extensions.swift */,
+				ECFE09B52A01DD35001A7C22 /* PTNHandler.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		ECFE09AE2A01DAD7001A7C22 /* CoreDataModels */ = {
+			isa = PBXGroup;
+			children = (
+				ECFE09AF2A01DAFC001A7C22 /* UserEntity+CoreDataClass.swift */,
+				ECFE09B12A01DB11001A7C22 /* GameEntity+CoreDataClass.swift */,
+			);
+			path = CoreDataModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +381,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECFE095E2A01CB0E001A7C22 /* ContentView.swift in Sources */,
+				ECFE09972A01DA3F001A7C22 /* UserProfileView.swift in Sources */,
+				ECFE09A92A01DAA0001A7C22 /* UserAPI.swift in Sources */,
+				ECFE09A12A01DA69001A7C22 /* UserViewModel.swift in Sources */,
+				ECFE09B62A01DD35001A7C22 /* PTNHandler.swift in Sources */,
+				ECFE09AB2A01DAA8001A7C22 /* GameAPI.swift in Sources */,
+				ECFE09912A01D9FB001A7C22 /* Player.swift in Sources */,
+				ECFE098D2A01D9C5001A7C22 /* Board.swift in Sources */,
+				ECFE09B02A01DAFC001A7C22 /* UserEntity+CoreDataClass.swift in Sources */,
+				ECFE09932A01DA18001A7C22 /* UserProfile.swift in Sources */,
+				ECFE099D2A01DA58001A7C22 /* GameView.swift in Sources */,
+				ECFE09A32A01DA70001A7C22 /* GameViewModel.swift in Sources */,
+				ECFE09952A01DA33001A7C22 /* BoardView.swift in Sources */,
+				ECFE09AD2A01DAC4001A7C22 /* CoreDataRepository.swift in Sources */,
+				ECFE09A72A01DA8C001A7C22 /* APIClient.swift in Sources */,
+				ECFE09B42A01DB33001A7C22 /* Extensions.swift in Sources */,
 				ECFE095C2A01CB0E001A7C22 /* TakApp.swift in Sources */,
+				ECFE09992A01DA4A001A7C22 /* SignInView.swift in Sources */,
+				ECFE099F2A01DA62001A7C22 /* BoardViewModel.swift in Sources */,
+				ECFE09B22A01DB11001A7C22 /* GameEntity+CoreDataClass.swift in Sources */,
+				ECFE099B2A01DA52001A7C22 /* SignUpView.swift in Sources */,
+				ECFE098F2A01D9D8001A7C22 /* Piece.swift in Sources */,
+				ECFE09A52A01DA79001A7C22 /* GameController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
